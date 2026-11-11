@@ -6,14 +6,6 @@ A collection of hands-on cybersecurity labs, tools, projects, and practical lear
 
 - [Nmap](Nmap/README.md) — Network scanning, host discovery, port scanning, service detection, and reconnaissance.
 
-## Repository Structure
-
-```text
-cybersecurity-tools-projects/
-├── README.md
-└── Nmap/
-    └── README.md
-```
 
 ## Objectives
 

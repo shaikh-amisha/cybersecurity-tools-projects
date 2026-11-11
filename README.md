@@ -1,16 +1,10 @@
 # Cybersecurity Tools & Projects
 
-A hands-on cybersecurity learning repository documenting practical tool usage, lab exercises, command references, observations, and technical write-ups.
+A collection of hands-on cybersecurity labs, tools, projects, and practical learning resources. This repository documents my cybersecurity learning journey through practical exercises, command references, and technical write-ups.
 
-## Current Focus
+## Topics & Tools
 
-### [Nmap](Nmap/README.md)
-Network scanning and reconnaissance practice, including:
-- Host discovery
-- Port scanning
-- Service and version detection
-- OS detection
-- Scan analysis and reporting
+- [Nmap](Nmap/README.md) — Network scanning, host discovery, port scanning, service detection, and reconnaissance.
 
 ## Repository Structure
 
@@ -21,20 +15,13 @@ cybersecurity-tools-projects/
     └── README.md
 ```
 
-## Write-up Format
+## Objectives
 
-Each lab write-up aims to include:
-1. Lab objective and authorized environment
-2. Methodology and steps performed
-3. Commands used with explanations
-4. Observations and actual results
-5. Screenshots or supporting evidence
-6. Key learnings
+- Build practical cybersecurity skills through hands-on labs.
+- Document commands, techniques, and their purpose.
+- Record observations, findings, and key learnings.
+- Maintain a reference for future revision and projects.
 
 ## Responsible Use
 
-All scanning and testing documented here is conducted only against systems owned by me or systems for which I have explicit authorization. Sensitive information, credentials, tokens, and protected challenge flags are not published.
-
----
-
-This repository is a work in progress and will grow as I complete and document more hands-on cybersecurity labs.
+All security testing is performed only in authorized lab environments or on systems for which I have explicit permission.

@@ -87,6 +87,14 @@ The scan was repeated after creating and requesting the test page. The observed 
 
 The `http-proxy` label is Nmap's service identification for the port; it does not by itself prove the exact application or proxy software running there.
 
+## Screenshots
+
+### Lab 01 — Scan and HTTP verification
+
+![Lab 01: Nmap scan of localhost port 8080 and HTTP response](Screenshot%20(748).png)
+
+The screenshot shows the local HTTP test page being requested with `curl` and the Nmap scan reporting `8080/tcp open http-proxy`.
+
 ## Notes and Observations
 
 - The target was the loopback host, not an external system.

@@ -1,4 +1,4 @@
-# Lab 02: Save Nmap Scan Output to XML
+# Lab 02: Analysis of Different outputs[-oX, -oG, -oA ] of Nmap
 
 ## Objective
 
@@ -13,20 +13,8 @@ Run a scan of local TCP port 8080 and save the results in Nmap's XML output form
 - Nmap version shown: `7.80`
 - Output file: `scan_report.xml`
 
-## Commands Attempted
 
-The terminal screenshot shows several unsuccessful command-line attempts before the working command. They produced the Nmap message:
-
-```text
-Output filename begins with '-'. Try '-oX ./-p' if you really want it to be named as such.
-QUITTING!
-```
-
-The issue was the placement of the XML output option and its filename. Nmap's `-oX` option expects the XML output filename immediately after it. In the unsuccessful attempts, `-p` was placed where Nmap expected the filename, so Nmap interpreted an option-like string as the output filename and stopped.
-
-The shell redirection operator `>` is not needed when Nmap's own `-oX` output option is used.
-
-## Successful Command
+## Command
 
 ```bash
 nmap -oX scan_report.xml -p 8080 localhost

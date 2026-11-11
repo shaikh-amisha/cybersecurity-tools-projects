@@ -2,7 +2,7 @@
 
 ## Objective
 
-Perform a basic Nmap scan against the local test environment, inspect the result, and understand the fields Nmap reports for a discovered TCP port.
+The objective of this lab is to understand basics of Nmap and perform a basic Nmap scan against the local test environment, inspect the result, and understand the fields Nmap reports for a discovered TCP port.
 
 ## Environment
 

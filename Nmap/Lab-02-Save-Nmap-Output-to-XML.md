@@ -1,4 +1,4 @@
-# Lab 02: Analysis of Different outputs[-oX, -oG, -oA ] of Nmap
+# Lab 02: Nmap Output Formats and XML Reporting
 
 ## Objective
 
@@ -13,6 +13,15 @@ Run a scan of local TCP port 8080 and save the results in Nmap's XML output form
 - Nmap version shown: `7.80`
 - Output file: `scan_report.xml`
 
+
+## Nmap Output Formats
+
+The lesson introduces several Nmap output formats:
+
+- **Normal output (`-oN`)**: human-readable scan output.
+- **XML output (`-oX`)**: structured output suitable for parsing and integration with other tools.
+- **Grepable output (`-oG`)**: line-oriented output that can be filtered with tools such as `grep`, `awk`, and `cut`.
+- **All formats (`-oA`)**: saves normal, XML, and grepable output using a common filename base.
 
 ## Command
 
@@ -57,6 +66,20 @@ cat scan_report.xml
 - `scan_report.xml` is the XML report created by the successful Nmap command.
 
 The screenshot shows the file-creation check passing; it does not show the output of the `cat` command, so the XML contents are not reproduced here.
+
+## Screenshots
+
+### Output formats overview
+
+![Lab 02: Nmap output formats overview](Screenshot%20(749).png)
+
+This screenshot shows the lesson explaining Nmap's available output formats.
+
+### XML output command and verification
+
+![Lab 02: Save Nmap scan output to XML](Screenshot%20(747).png)
+
+This screenshot shows the successful `nmap -oX scan_report.xml -p 8080 localhost` command and the LabEx checks confirming that the XML file exists and the scan completed.
 
 ## Why XML Output Is Useful
 

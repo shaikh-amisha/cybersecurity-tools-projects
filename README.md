@@ -5,7 +5,7 @@ A collection of hands-on cybersecurity labs, tools, projects, and practical lear
 ## Topics & Tools
 
 - [Nmap](Nmap/README.md) — Network scanning, host discovery, port scanning, service detection, and reconnaissance.
-
+- [Hydra](Hydra/README.md) — Installation, verification, and controlled authentication testing in a local lab.
 
 ## Objectives
 

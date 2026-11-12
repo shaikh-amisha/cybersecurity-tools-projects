@@ -81,6 +81,20 @@ The screenshot shows the test in progress. It does not show a successful authent
 | `[ATTEMPT]` | Shows a username/password combination being tested |
 | `-t 1` | Runs one task at a time for the target |
 
+## Screenshots
+
+### Hydra installation and verification
+
+![Hydra installation using apt and executable path verification](Screenshot%20(751).png)
+
+This screenshot shows the `sudo apt install -y hydra` command, the package manager confirming Hydra is already installed, and `which hydra` returning `/usr/bin/hydra`.
+
+### Basic SSH password-list test
+
+![Hydra SSH test against localhost](Screenshot%20(752).png)
+
+This screenshot shows Hydra v9.2 testing the SSH service on `127.0.0.1:22`, with verbose output displaying the attempted username/password combinations. The visible output is an attempt in progress, not proof of a successful login.
+
 ## Key Learnings
 
 - Hydra can be installed through the Ubuntu/Debian package manager.
